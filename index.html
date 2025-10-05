@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA Dashboard Espacial</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+  <!-- Tu CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Dashboard Espacial NASA</h1>
+
+  <!-- Mapa -->
+  <div id="map"></div>
+
+  <!-- Gráficos -->
+  <h2>Gráficos</h2>
+  <div style="width:90%; margin:auto; display:flex; flex-wrap:wrap; gap:20px;">
+    <canvas id="asteroidChart" width="400" height="200"></canvas>
+    <canvas id="fireChart" width="400" height="200"></canvas>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Tu Script -->
+  <script src="script.js"></script>
+</body>
+</html>
